@@ -1,4 +1,4 @@
-var Emitter = require('emitter'),
+var Emitter = require('component-emitter'),
 		attach = window.addEventListener ? 'addEventListener' : 'attachEvent',
 		detach = window.removeEventListener ? 'removeEventListener' : 'detachEvent',
 		prefix = attach !== 'addEventListener' ? 'on' : '';
